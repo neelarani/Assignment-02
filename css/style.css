@@ -900,13 +900,12 @@ select {
     text-align: left;
   }
 }
-
 @media screen and (max-width: 833px) {
   #hamburger {
     position: absolute;
     display: block;
     font-size: 2rem;
-    right: 1.5rem;
+    right: 1rem;
   }
 
   .navbar ul li a {
@@ -930,9 +929,7 @@ select {
   .cards .workout-card {
     position: absolute;
   }
-  .habit-section {
-    padding-top: 0;
-  }
+
   .team-content {
     max-width: 100%;
   }
@@ -971,13 +968,8 @@ select {
 
   .footer-content {
     height: auto;
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
-  }
-  .devider {
-    width: 90%;
-    margin: 0 auto;
   }
 }
 
@@ -1025,6 +1017,20 @@ select {
     display: none;
   }
 
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 4;
+  }
+
+  .order-3 {
+    order: 3;
+  }
+
+  .order-4 {
+    order: 5;
+  }
   /* bmi */
   .bmi-calculator {
     padding-top: 10rem;

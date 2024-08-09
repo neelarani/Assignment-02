@@ -1076,6 +1076,20 @@ select {
   .calculate #select {
     width: 100%;
   }
+
+  /* footer */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .box1 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    padding-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 426px) {

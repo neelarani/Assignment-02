@@ -278,7 +278,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 
 .habit-container {
@@ -997,9 +997,16 @@ select {
     padding: 0;
   }
 
+  .image {
+    width: 60%;
+  }
+
   /* food section */
   .food-section {
     margin-top: 4rem;
+  }
+  .food-text {
+    width: 80%;
   }
 
   /* Run section */

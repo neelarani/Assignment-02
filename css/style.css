@@ -1171,4 +1171,7 @@ select {
     width: 100%;
     height: auto;
   }
+  .apply-content h1 {
+    font-size: 1.5rem;
+  }
 }
